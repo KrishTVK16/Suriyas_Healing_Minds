@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Comprehensive mental health services including individual therapy, couples counseling, family therapy, group therapy, and online counseling.">
+    <title>Our Services - Healing Minds Counseling</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/footer-social.css">
+</head>
+
+<body>
+    <!-- Crisis Banner -->
+    <div class="crisis-banner">
+        In Crisis? Call <a href="tel:988">988</a> - 24/7 Support
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="navbar-content">
+            <a href="index.html" class="logo">
+                <div>
+                    <div class="logo-text">Healing Minds</div>
+                </div>
+            </a>
+            <button class="mobile-menu-toggle" aria-label="Toggle menu">☰</button>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html" class="active">Services</a></li>
+                <li><a href="therapists.html">Therapists</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="contact.html#appointment-form" class="btn">Appointment</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Our Services</h1>
+            <p>Personalized Care for Your Unique Needs</p>
+        </div>
+    </section>
+
+    <!-- Services Grid -->
+    <section class="section">
+        <div class="container">
+            <div class="services-grid">
+
+                <!-- Individual Therapy -->
+                <div class="service-card">
+                    <div class="service-card-inner">
+                        <div class="service-icon">🧘</div>
+                        <h3>Individual Therapy</h3>
+                        <p class="service-tagline">One-on-one personalized support</p>
+                        <div class="topic-badges-container">
+                            <button class="topic-badge" onclick="openModal('individual-who')">Who It's For</button>
+                            <button class="topic-badge" onclick="openModal('individual-expect')">What to Expect</button>
+                            <button class="topic-badge" onclick="openModal('individual-duration')">Duration</button>
+                            <button class="topic-badge" onclick="openModal('individual-pricing')">Pricing</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Couples Counseling -->
+                <div class="service-card">
+                    <div class="service-card-inner">
+                        <div class="service-icon">❤️</div>
+                        <h3>Couples Counseling</h3>
+                        <p class="service-tagline">Strengthen your relationship</p>
+                        <div class="topic-badges-container">
+                            <button class="topic-badge" onclick="openModal('couples-issues')">Issues Addressed</button>
+                            <button class="topic-badge" onclick="openModal('couples-premarital')">Pre-Marital</button>
+                            <button class="topic-badge" onclick="openModal('couples-expect')">What to Expect</button>
+                            <button class="topic-badge" onclick="openModal('couples-pricing')">Pricing</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Family Therapy -->
+                <div class="service-card">
+                    <div class="service-card-inner">
+                        <div class="service-icon">👨‍👩‍👧‍👦</div>
+                        <h3>Family Therapy</h3>
+                        <p class="service-tagline">Heal family dynamics</p>
+                        <div class="topic-badges-container">
+                            <button class="topic-badge" onclick="openModal('family-dynamics')">Family Dynamics</button>
+                            <button class="topic-badge" onclick="openModal('family-expect')">What to Expect</button>
+                            <button class="topic-badge" onclick="openModal('family-pricing')">Pricing</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Group Therapy -->
+                <div class="service-card">
+                    <div class="service-card-inner">
+                        <div class="service-icon">👥</div>
+                        <h3>Group Therapy</h3>
+                        <p class="service-tagline">Connect with supportive peers</p>
+                        <div class="topic-badges-container">
+                            <button class="topic-badge" onclick="openModal('group-offerings')">Current Groups</button>
+                            <button class="topic-badge" onclick="openModal('group-join')">How to Join</button>
+                            <button class="topic-badge" onclick="openModal('group-pricing')">Pricing</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Child & Teen Services -->
+                <div class="service-card">
+                    <div class="service-card-inner">
+                        <div class="service-icon">🎨</div>
+                        <h3>Child & Teen Services</h3>
+                        <p class="service-tagline">Age-appropriate support</p>
+                        <div class="topic-badges-container">
+                            <button class="topic-badge" onclick="openModal('childteen-approaches')">Approaches</button>
+                            <button class="topic-badge" onclick="openModal('childteen-concerns')">Common
+                                Concerns</button>
+                            <button class="topic-badge" onclick="openModal('childteen-parents')">Parent
+                                Involvement</button>
+                            <button class="topic-badge" onclick="openModal('childteen-pricing')">Pricing</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Online Counseling -->
+                <div class="service-card">
+                    <div class="service-card-inner">
+                        <div class="service-icon">💻</div>
+                        <h3>Online Counseling</h3>
+                        <p class="service-tagline">Secure telehealth sessions</p>
+                        <div class="topic-badges-container">
+                            <button class="topic-badge" onclick="openModal('online-platform')">Platform
+                                Security</button>
+                            <button class="topic-badge" onclick="openModal('online-benefits')">Benefits</button>
+                            <button class="topic-badge" onclick="openModal('online-requirements')">Requirements</button>
+                            <button class="topic-badge" onclick="openModal('online-insurance')">Insurance</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Specialized Programs -->
+                <div class="service-card">
+                    <div class="service-card-inner">
+                        <div class="service-icon">⭐</div>
+                        <h3>Specialized Programs</h3>
+                        <p class="service-tagline">Intensive & focused treatment</p>
+                        <div class="topic-badges-container">
+                            <button class="topic-badge" onclick="openModal('specialized-iop')">IOP Program</button>
+                            <button class="topic-badge" onclick="openModal('specialized-emdr')">EMDR Therapy</button>
+                            <button class="topic-badge" onclick="openModal('specialized-eating')">Eating
+                                Disorders</button>
+                            <button class="topic-badge" onclick="openModal('specialized-substance')">Substance
+                                Abuse</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Psychiatric Services -->
+                <div class="service-card">
+                    <div class="service-card-inner">
+                        <div class="service-icon">💊</div>
+                        <h3>Psychiatric Services</h3>
+                        <p class="service-tagline">Medication management</p>
+                        <div class="topic-badges-container">
+                            <button class="topic-badge"
+                                onclick="openModal('psychiatric-medication')">Medication</button>
+                            <button class="topic-badge" onclick="openModal('psychiatric-collaborative')">Collaborative
+                                Care</button>
+                            <button class="topic-badge" onclick="openModal('psychiatric-psychiatrist')">Our
+                                Psychiatrist</button>
+                            <button class="topic-badge" onclick="openModal('psychiatric-pricing')">Pricing</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Assessment & Testing -->
+                <div class="service-card">
+                    <div class="service-card-inner">
+                        <div class="service-icon">📋</div>
+                        <h3>Assessment & Testing</h3>
+                        <p class="service-tagline">Comprehensive evaluations</p>
+                        <div class="topic-badges-container">
+                            <button class="topic-badge"
+                                onclick="openModal('assessment-psychological')">Psychological</button>
+                            <button class="topic-badge" onclick="openModal('assessment-adhd')">ADHD Testing</button>
+                            <button class="topic-badge" onclick="openModal('assessment-learning')">Learning
+                                Disabilities</button>
+                            <button class="topic-badge" onclick="openModal('assessment-pricing')">Pricing</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-column">
+                <h3>About Us</h3>
+                <p>Healing Minds Counseling is dedicated to providing compassionate, evidence-based mental health
+                    services to individuals, couples, and families in our community.</p>
+            </div>
+            <div class="footer-column">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="therapists.html">Therapists</a></li>
+                    <li><a href="resources.html">FAQs</a></li>
+                    <li><a href="#privacy">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Resources</h3>
+                <ul>
+                    <li><a href="resources.html">Crisis Lines</a></li>
+                    <li><a href="resources.html">Support Groups</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Contact</h3>
+                <p>123 Wellness Street<br>City, State 12345</p>
+                <p>Phone: <a href="tel:(555)123-4567">(555) 123-4567</a></p>
+                <p>Email: <a href="mailto:info@healingminds.com">info@healingminds.com</a></p>
+                <p>Hours: Mon-Fri 9am-7pm<br>Sat 10am-4pm</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Healing Minds Counseling. All rights reserved. | HIPAA Compliant</p>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" aria-label="Back to top">↑</button>
+
+    <script src="js/main.js"></script>
+    <script src="js/modals.js"></script>
+</body>
+
+</html>

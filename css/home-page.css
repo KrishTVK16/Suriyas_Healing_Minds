@@ -1,0 +1,41 @@
+/* Home Page - Center Headings and Icons */
+
+/* Center all section titles */
+.section-title h2,
+.section h2 {
+    text-align: center;
+}
+
+/* Center card icons */
+.card-icon {
+    text-align: center;
+    display: block;
+}
+
+/* Center all card titles/headings */
+.card h3,
+.card .card-title {
+    text-align: center;
+}
+
+/* Center feature icons and titles */
+.feature-icon {
+    text-align: center;
+    display: block;
+}
+
+/* Align buttons to bottom of cards in "How We Can Help" section */
+.card-grid .card {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-grid .card p {
+    flex-grow: 1;
+    margin-bottom: 1.5rem;
+}
+
+.card-grid .card .btn {
+    margin-top: auto;
+    align-self: center;
+}
